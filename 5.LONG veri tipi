@@ -1,0 +1,15 @@
+public class long {
+
+	public static void main(String[] args) {
+	
+		//çok büyük sayılar için 8 byte 
+		
+		long maxDeger = Long.MAX_VALUE;
+		long minDeger = Long.MIN_VALUE;
+		
+		System.out.println(maxDeger);
+		System.out.println(minDeger);		
+
+	}
+
+}
