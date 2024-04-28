@@ -1,0 +1,14 @@
+public class stringgg {
+
+	public static void main(String[] args) {
+
+    // metinsel ifadeler için kullanılır
+		
+		String metin = "Mustafa Berkan" 
+				+ " Gelişim Üniversitesi"
+		    +" 2003 Doğumlu ";
+		
+		System.out.println(metin);
+	}
+
+}
