@@ -1,0 +1,47 @@
+public class test {
+
+	public static void main(String[] args ) {
+	
+		// bir kuruyemişçi toptancıdan 
+		// 12 kilo leblebiyi 3.5
+		//25 kilo fındık 15.7
+		//40 kilo badem kilosunu 22 tl den almıştır
+		
+		 // bu ürünleri satarken
+		
+		// leblebinin kilosunu %50 daha fazlaya satmış 
+		// fındık ise % 40 fazlasına 
+		// badem ise %60 fazlasına satmıştır 
+		
+		// kuruyemişçi o gün kazandığı para ile kirasını ödemektedir 
+		
+//		kira tutarı 500 tl
+		
+//		kazandığı para ise 500 tl den yüksek ise kirayı ödeyebilsin değilse ödeyemesin
+		
+		// fiyatlar
+		double leblebi = 3.5;
+		double fındık = 15.7;
+		double badem = 22;
+		
+		double maliyetutar =(leblebi*12)+(fındık*25)+(badem*40);
+		
+		double satistutar  = ((leblebi*1.5)*12) +((fındık*1.4)*25)+((badem*1.6)*40);
+		
+		double kaartutar = satistutar - maliyetutar;
+		
+		if (kaartutar>500)
+		{
+		    System.out.println("kirayı ödeyebilirsin:)");
+		}
+		else {
+			{
+			System.out.println("kirayı ödemek için yeterli paranız yok.");
+		}
+		
+		System.out.println("maliye tutar :  "   + maliyetutar);
+		System.out.println("satış tutar  :   "   + satistutar);
+		System.out.println("kazanç tutar :   "   +  kaartutar);
+		}
+	}
+}
