@@ -1,0 +1,13 @@
+public class boolea {
+
+	public static void main(String[] args) {
+		
+		boolean  sonuc = 1>2;
+		
+		// true evet
+		// false yanlış
+    
+		System.out.println(sonuc);
+	}
+
+}
