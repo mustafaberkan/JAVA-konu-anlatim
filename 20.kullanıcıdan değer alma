@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		// kullanıcıdan değer alma nasıl yapılır
+		// scanner
+		
+		/*
+		nextline()>string
+		nextint()>integer
+		nextbyte()>byte
+		nextfloat()>float
+		nextdouble()>double
+		*/
+		
+		Scanner  scanner = new Scanner(System.in);
+		
+		/*
+		System.out.println("Adınızı giriniz.");
+		
+		String isim = scanner.nextLine();
+		
+		System.out.println("Soyadınızı giriniz");
+		
+		String soyisim= scanner.nextLine(); 
+		
+		System.out.println("Adınızı ve Soyadınız :"+ isim+ " " + soyisim );
+		*/
+	/*	
+	System.out.println("yaşınızı giriniz:");
+	
+	int yas =scanner.nextInt();
+	
+	System.out.println("Yaşınız : " + yas);
+	*/
+		
+	System.out.print("kilonuzu giriniz;");
+		
+	double kilo =scanner.nextDouble();
+	
+	System.out.print(" kilonuz :  " + kilo);
+	}
+
+}
