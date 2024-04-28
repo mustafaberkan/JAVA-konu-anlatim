@@ -1,0 +1,77 @@
+import java.util.Scanner;
+
+public class testt {
+    public static void main(String[] args) {
+
+        String islemSecenekleri = "Bakiye gönderimi >>> 1\n"
+                                + "Para çekmek >>> 2\n"
+                                + "Farklı hesaba para yatırmak >>> 3\n"
+                                + "Çıkış için q tuşuna basınız";
+
+        Scanner scanner = new Scanner(System.in);
+
+        double mustafaBakiye = 2450;
+        String mustafaIBAN = "TR1234 567 890 123 456 4562 51 45";
+        String mustafaKullanici = "mustafa23";
+        String mustafaSifre = "154";
+
+        double berkanBakiye = 1200;
+        String berkanIBAN = "TR1234 756 897 456 459 1235 52 47";
+        String berkanKullanici = "berkan13";
+        String berkanSifre = "175";
+
+        System.out.println("ATM'ye hoşgeldiniz.");
+        System.out.println("Lütfen bilgilerinizi giriniz.");
+
+        System.out.print("Kullanıcı adı: ");
+        String kullaniciAdi = scanner.nextLine();
+
+        System.out.print("Şifre: ");
+        String sifre = scanner.nextLine();
+
+        if (kullaniciAdi.equals(mustafaKullanici) && sifre.equals(mustafaSifre)) {
+            System.out.println("Mustafa hesabına giriş yapıldı.");
+            System.out.println(islemSecenekleri);
+            System.out.print("Lütfen bir seçim yapınız: ");
+            String secim = scanner.nextLine();
+
+            switch (secim) {
+                case "1":
+                    System.out.println("Bakiyeniz: " + mustafaBakiye);
+                    break;
+
+                case "2":
+                    System.out.print("Çekmek istediğiniz tutarı giriniz: ");
+                    double cekilecekTutar = scanner.nextDouble();
+                    if (mustafaBakiye >= cekilecekTutar) {
+                        mustafaBakiye -= cekilecekTutar;
+                        System.out.println("Kalan tutar: " + mustafaBakiye);
+                    } else {
+                        System.out.println("Bakiyenizden fazla para çekemezsiniz.");
+                    }
+                    break;
+
+                case "3":
+                    System.out.print("Ne kadar yatırmak istiyorsanız: ");
+                    double yatirilacakTutar = scanner.nextDouble();
+                    mustafaBakiye += yatirilacakTutar;
+                    System.out.println("Yeni bakiyeniz: " + mustafaBakiye);
+                    break;
+
+                default:
+                    System.out.println("Geçersiz seçim.");
+            }
+        } else if (kullaniciAdi.equals(berkanKullanici) && sifre.equals(berkanSifre)) {
+            System.out.println("Berkan hesabına giriş yapıldı.");
+            System.out.println(islemSecenekleri);
+            System.out.print("Lütfen bir seçim yapınız: ");
+            String secim = scanner.nextLine(); // Use nextLine() instead of nextInt() to clear the input buffer
+
+            // Write the switch-case statement for Berkan's account similarly as done for Mustafa's account
+        } else {
+            System.out.println("Kullanıcı adı veya şifre yanlış!");
+        }
+
+        scanner.close();
+    }
+}
