@@ -1,0 +1,23 @@
+
+public class test {
+
+	public static void main(String[] args) {
+	
+	// int metottangelensonuc 	= carp(5, 3);
+		
+		isimdondur("enes");
+		// bir değeri sonlandırmak için kullanılır  return
+		//bir metodu sonlandırmak için kullanılır return
+	}
+	
+	 public static int carp (int sayi1 , int sayi2)
+	{
+		int sonuc = sayi1*sayi2;
+		return sonuc;	
+	}
+	
+	public static String isimdondur(String isim)
+	{
+	return isim;
+	}
+}
