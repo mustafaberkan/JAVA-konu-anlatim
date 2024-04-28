@@ -1,0 +1,24 @@
+public class çoklu {
+
+	public static void main(String[] args) {
+      
+		// ---
+      //   +++
+		// **
+	// /=
+		
+		int a= 12; 
+		
+		a+=7;
+		
+		a+=13;
+		
+		a-=9;
+		
+		a*=4;
+				
+		a/=4;		
+		System.out.println(a);
+	}
+
+}
