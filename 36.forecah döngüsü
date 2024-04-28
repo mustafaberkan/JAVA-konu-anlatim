@@ -1,0 +1,16 @@
+
+public class test {
+
+	public static void main(String[] args) {
+	
+		String[] isimler= {"enes" , "yakup","mahmut" };
+		
+		for(String a : isimler) {
+		
+			System.out.println(a);			
+		
+		}		
+		
+	}
+
+}
