@@ -1,0 +1,24 @@
+public class test {
+
+	public static void main(String[] args) {
+	
+		// PARAmetresiz ve geriye dönmeyen metot tanımla
+		
+		isimYazdir();
+		isimYazdir();
+		isimYazdir();
+		isimYazdir();
+	}
+	
+	// 1 kez yaz istediğin zaman çağır kullan
+	// erişim belirleyicisi dönüş_tipi adı
+	// size hizmet eden kod blokları
+	// bir kere yazıp her yerde kullanabilmek
+	
+	
+	public static void isimYazdir()
+	{
+		System.out.println("mustafa");
+	
+	}
+}
