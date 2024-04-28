@@ -1,0 +1,45 @@
+public class artıveeksi {
+
+	public static void main(String[] args) {
+		
+	//	+ 
+	// - 
+		/*
+		int vize1 =60;
+		int viza2 =70;
+		int finalnot =80; 
+		
+		int sonuc = vize1 + viza2+ finalnot; 
+		
+		System.out.println(sonuc/3);
+		
+		*/
+		
+		/*
+		int sayi1 =10;
+		int sayi2 =5;
+		
+		int sonuc =sayi1-sayi2;
+		System.out.println(sonuc);		
+		*/
+		
+		
+		int vize1=50;
+		int vize2=20;
+		int finalnot=50;
+		
+		int sonuc = (vize1+vize2+finalnot)/3;
+		
+		System.out.println("Ders geçme notunuz :" + sonuc);
+		
+		
+		String isim = " mustafa ";
+		String soyisim = " berkan ";
+		
+		// birleştir
+		
+		System.out.println(isim+soyisim);
+	}
+
+}
+
