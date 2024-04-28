@@ -1,0 +1,12 @@
+class int {
+
+	public static void main(String[] args) {
+	
+		// 9 basamağa kadar çıkabilen sayıları kullanır  4 byte 
+		
+		int sayi = 454545465;
+
+			System.out.println(sayi);	
+	}
+
+}
