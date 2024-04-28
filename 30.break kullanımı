@@ -1,0 +1,18 @@
+public class test {
+
+	public static void main(String[] args) {
+
+		// break kullanımı
+		
+		int sayiyibuldunmu = 0; // sayiyibuldunmu değişkenini tanımla ve başlangıç değeri olarak 0 ata
+		
+		for (int i = 1; i <= 10; i++) {	
+			if (i == 4) {
+				sayiyibuldunmu = i;
+				break; // döngüyü kır ve döngüden çık 
+			}	
+		}
+		
+		System.out.println("Bulunan sayı: " + sayiyibuldunmu); // Bulunan sayıyı yazdır
+	}
+}
