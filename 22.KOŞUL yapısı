@@ -1,0 +1,22 @@
+public class testt {
+
+	public static void main(String[] args) {	
+		
+		// if else
+		
+		// koşul : 7>3
+		
+		if (7>3) {
+			
+		System.out.println("7 , 3 ten büyüktür ... ");
+		}
+		
+		else {
+			
+		System.out.println("7 , 3 ten küçüktür ... " );	
+		
+		}
+
+	}
+
+}
