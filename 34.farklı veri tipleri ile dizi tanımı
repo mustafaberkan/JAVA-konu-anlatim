@@ -1,0 +1,79 @@
+public class test {
+
+	public static void main(String[] args) {
+		
+		// diğer veri tipleri ile dizi tanımlama 
+		
+		//int
+		//char
+		//double
+		
+		int[]sayilar=new int[6];
+		
+		sayilar[0]=15;
+		
+		sayilar[1]=12;
+		
+		sayilar[2]=23;
+		
+		sayilar[3]=76;
+		
+		sayilar[4]=89;
+		
+		sayilar[5]=67;
+		
+	    for(int i=0 ; i<sayilar.length ; i++)
+	    {
+	    
+		System.out.println(sayilar[i]);
+	    	
+	    }
+
+	}
+
+}
+
+
+
+
+public class testtt {
+
+	public static void main(String[] args) {
+		
+		double[] doubledizi = {12.5, 13.4, 15.4, 41.50};
+		
+		for(int i=0 ; i<doubledizi.length; i++)
+		{
+		System.out.println(doubledizi[i]);
+			
+		}
+	}
+
+}
+
+
+
+
+
+public class testt {
+
+	public static void main(String[] args) {
+		
+		//char
+		
+		
+		char[] karakterdizi = {'e','b','d','s'};
+		
+		for(int i=0;  i<karakterdizi.length ; i++)
+		{
+			
+		System.out.println(karakterdizi[i]);
+		}	
+	}
+
+}
+
+
+
+
+
