@@ -1,0 +1,35 @@
+public class logical {
+
+	public static void main(String[] args) {
+
+		//  /*
+        //  %% ve 
+		//  || veya
+		//  ! değil   sonucun zıttını almak için kullanılır
+		//  ?: üçlü operatör   -->  ternary operatör 
+		//  */
+		
+//		boolean a=!true;
+		
+//		System.out.println(a);
+		
+//		boolean sonuc =!(a>b);
+		
+//		boolean sonuc =!(a>b);
+		
+//		boolean sonuc = a>5 && b<7;
+//			boolean sonuc = a > 2 || b < 1; 
+		
+		
+		//  boolean sonuc = a > 2 || b < 1; 
+		
+		//	boolean sonuc = a>4? true : false;
+		
+			int a=8;
+			int b=4; 
+				
+			String sonuc= a>7 ? "EVET BÜYÜKTÜR "  :  "HAYIR KÜÇÜKTÜR";
+ 		System.out.println( sonuc);
+							
+	}
+}
