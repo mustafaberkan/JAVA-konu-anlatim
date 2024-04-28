@@ -1,0 +1,16 @@
+public class modalma {
+
+	public static void main(String[] args) {
+		 
+		// mod alma operatörü % kalan bulmak için kullanırız 
+		
+		int sayi1 = 20;
+		int sayi2 = 4;		
+
+		int sonuc  = 20%6;
+		
+		System.out.println("Kalan :" + sonuc);
+		
+	}
+
+}
