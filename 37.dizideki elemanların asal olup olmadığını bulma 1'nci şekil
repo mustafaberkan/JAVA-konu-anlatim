@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class test {
+
+    public static void main(String[] args) {
+
+        // dizinin elemanlarını kullanıcıdan alalım
+        // daha sonra dizinin içindeki elemanların asal olanlarını ve olmayanlarını aytı bir şekilde yazalım
+
+        System.out.println("asal sayı bulmaya hoşgeldiniz");
+        System.out.println("*************");
+
+        int asaltoplama = 0;
+        int asalolmayan = 0;
+
+        String asalssayilar = "";
+        String asalolmayansayilar = "";
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("DİZİNİN eleman sayısını giriniz : ");
+
+        int diziuzunluk = scanner.nextInt();
+
+        scanner.nextLine();
+
+        int[] sayilar = new int[diziuzunluk];
+
+        for (int i = 0; i < sayilar.length; i++) {
+            System.out.println("dizinin " + i + "index değerini giriniz : ");
+            sayilar[i] = scanner.nextInt();
+            scanner.nextLine();
+        }
+
+        for (int sayi : sayilar) {
+            boolean asalMi = true;
+            for (int j = 2; j < sayi; j++) {
+                if (sayi % j == 0) {
+                    asalMi = false;
+                    break;
+                }
+            }
+            if (asalMi) {
+                asaltoplama += 1;
+                asalssayilar += sayi + " ";
+            } else {
+                asalolmayan += 1;
+                asalolmayansayilar += sayi + " ";
+            }
+        }
+
+        System.out.println("Asal olan sayılar: " + asalssayilar);
+        System.out.println("Asal olmayan sayılar: " + asalolmayansayilar);
+    }
+}
