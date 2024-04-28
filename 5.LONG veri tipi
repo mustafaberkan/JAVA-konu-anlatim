@@ -11,5 +11,4 @@ public class long {
 		System.out.println(minDeger);		
 
 	}
-
 }
