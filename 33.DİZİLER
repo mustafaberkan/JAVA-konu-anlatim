@@ -1,0 +1,21 @@
+public class test {
+
+	public static void main(String[] args) {
+	
+		// dizi oluşturma değer atama yazdırma
+		
+		String[]isimDizisi = {"Ali" ,"Veli" , "Enes" , "Yakup", "Bilal"};
+		
+		System.out.println("dizinin elemanları");
+		System.out.println("-----------");
+		
+		
+		for(int i=0; i<isimDizisi.length ; i++)
+		
+		{
+		System.out.println(isimDizisi[i]); 	
+		}	
+		
+	}
+
+}
