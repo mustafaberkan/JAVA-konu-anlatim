@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+	
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("dizi kaç elemanlı olsun : ");
+				
+		int diziuzunluk = scanner.nextInt();
+		scanner.nextLine();
+		
+		String [] isimler= new String [diziuzunluk];
+			
+		for(int i=0 ; i<isimler.length ; i++)
+		{
+			
+		System.out.print("dizinin " + (i) + " .  index değerini giriniz :");
+		
+		isimler[i] = scanner.nextLine();
+
+		}		
+		for (int i=0; i<isimler.length; i++)
+		{
+		System.out.print(isimler[i]);
+		
+		}
+
+	}
+
+}
