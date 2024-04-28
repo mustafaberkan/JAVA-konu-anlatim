@@ -1,0 +1,15 @@
+public class arttırma {
+
+	public static void main(String[] args) {
+	
+		//arttırma : ++ --->1 arttırmak için kullanılır 
+		// azaltma : --   ----> azaltmak için kullanılır 
+		
+		int a=9;
+//        a++; control shift c yorum satırı iiçin
+           a++ ;
+		System.out.println(a);
+
+	}
+
+}
