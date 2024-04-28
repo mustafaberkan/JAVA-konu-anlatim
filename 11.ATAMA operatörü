@@ -1,0 +1,12 @@
+public class atmam {
+
+	public static void main(String[] args) {
+	
+		// atama operatörü
+		
+		int sayi = 48;
+		
+		System.out.println(sayi);
+	}
+
+}
